@@ -20,6 +20,5 @@ from learningapp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('learningapp/', include('learningapp.urls') ),
     path('', views.registration)
 ]
